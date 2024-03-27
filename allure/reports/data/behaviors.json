@@ -1,0 +1,35 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Book a Flight for Henry, his wife Casey and his daughter from BLR to DEL and vice versa",
+    "children" : [ {
+      "name" : "Verify the Booking of BLR to DEL flight for 1 Adult and 1 Child",
+      "uid" : "c3ac59bfa17fe0ce",
+      "parentUid" : "2c01ca9717504950b87d867699bf287a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618144345089,
+        "stop" : 1618144444747,
+        "duration" : 99658
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify the Booking of DEL to BLR flight for 2 Adults and 1 Child",
+      "uid" : "7ce227413726849f",
+      "parentUid" : "2c01ca9717504950b87d867699bf287a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618144444787,
+        "stop" : 1618144556836,
+        "duration" : 112049
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2c01ca9717504950b87d867699bf287a"
+  } ]
+}

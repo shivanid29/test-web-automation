@@ -1,0 +1,21 @@
+[ {
+  "uid" : "7ce227413726849f",
+  "name" : "Verify the Booking of DEL to BLR flight for 2 Adults and 1 Child",
+  "time" : {
+    "start" : 1618144444787,
+    "stop" : 1618144556836,
+    "duration" : 112049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3ac59bfa17fe0ce",
+  "name" : "Verify the Booking of BLR to DEL flight for 1 Adult and 1 Child",
+  "time" : {
+    "start" : 1618144345089,
+    "stop" : 1618144444747,
+    "duration" : 99658
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,102 @@
+{
+  "uid" : "7ce227413726849f",
+  "name" : "Verify the Booking of DEL to BLR flight for 2 Adults and 1 Child",
+  "fullName" : "Book a Flight for Henry, his wife Casey and his daughter from BLR to DEL and vice versa: Verify the Booking of DEL to BLR flight for 2 Adults and 1 Child",
+  "historyId" : "67a8b5d0b6fbe1248dfd175145c79273",
+  "time" : {
+    "start" : 1618144444787,
+    "stop" : 1618144556836,
+    "duration" : 112049
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given details for from DEL to BLR and number of travellers",
+      "time" : {
+        "start" : 1618144457066,
+        "stop" : 1618144484455,
+        "duration" : 27389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When we submit the details for flight booking to get the list of available nonstop flight",
+      "time" : {
+        "start" : 1618144484456,
+        "stop" : 1618144487133,
+        "duration" : 2677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then book the last available non-stop flight and proceed to the payment page",
+      "time" : {
+        "start" : 1618144487134,
+        "stop" : 1618144554416,
+        "duration" : 67282
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "part2"
+  }, {
+    "name" : "feature",
+    "value" : "Book a Flight for Henry, his wife Casey and his daughter from BLR to DEL and vice versa"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "part2" ]
+  },
+  "source" : "7ce227413726849f.json",
+  "parameterValues" : [ ]
+}
